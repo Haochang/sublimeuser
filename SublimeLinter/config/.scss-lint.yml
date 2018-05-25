@@ -1,0 +1,74 @@
+linters:
+  ColorVariable:
+    enabled: false
+
+  DeclarationOrder:
+    enabled: false
+
+  IdSelector:
+    enabled: true
+
+  ImportantRule:
+    enabled: false
+
+  Indentation:
+    enabled: true
+    allow_non_nested_indentation: false
+    character: space # or 'tab'
+    width: 4
+
+  MergeableSelector:
+    enabled: true
+    force_nesting: false
+
+  NameFormat:
+    enabled: true
+    allow_leading_underscore: true
+    convention: BEM
+    function_convention: hyphenated_lowercase
+    mixin_convention: hyphenated_lowercase
+    variable_convention: hyphenated_lowercase
+    placeholder_convention: ^[a-zA-Z_\-]+$
+
+  PlaceholderInExtend:
+    enabled: true
+
+  PropertyCount:
+    enabled: false
+    include_nested: false
+    max_properties: 15
+
+  PropertySortOrder:
+    enabled: true
+    ignore_unspecified: false
+    separate_groups: false
+
+  SelectorDepth:
+    enabled: true
+    max_depth: 3
+
+  SelectorFormat:
+    enabled: true
+    convention: hyphenated_BEM # or 'hyphenated_lowercase', or 'hyphenated_BEM', or 'snake_case', or 'camel_case', or a regex pattern
+
+  StringQuotes:
+    enabled: false
+    style: single_quotes # or double_quotes
+
+  TrailingZero:
+    enabled: true
+
+  VendorPrefixes:
+    enabled: false
+    identifier_list: base
+    include: []
+    exclude: ['overflow-scrolling', 'transition', 'transform']
+
+  VendorPrefix:
+    enabled: false
+    identifier_list: base
+    include: []
+    exclude: ['overflow-scrolling', 'transition', 'transform']
+
+  ZeroUnit:
+    enabled: true
