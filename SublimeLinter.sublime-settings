@@ -1,0 +1,38 @@
+
+{
+	"debug": false,
+	"delay": 0.25,
+	"lint_mode": "load_save",
+	"show_panel_on_save": "view",
+	"linters":
+	{
+		"scsslint": {
+			"args": ["--config", "/Users/haochang/code/.scss-lint.yml"]
+		}
+	},
+	"no_column_highlights_line": true,
+	"paths":
+	{
+		"linux":
+		[
+		],
+		"osx":
+		[
+		],
+		"windows":
+		[
+		]
+	},
+	"show_marks_in_minimap": true,
+	"syntax_map":
+	{
+		"html (django)": "html",
+		"html (rails)": "html",
+		"html 5": "html",
+		"javascript (babel)": "javascript",
+		"magicpython": "python",
+		"php": "html",
+		"python django": "python",
+		"pythonimproved": "python"
+	}
+}

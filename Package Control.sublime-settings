@@ -1,0 +1,26 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Babel",
+		"BracketHighlighter",
+		"Git",
+		"Highlight Whitespaces",
+		"JavaScriptNext - ES6 Syntax",
+		"Oceanic Next Color Scheme",
+		"Package Control",
+		"PHP-Twig",
+		"Pretty JSON",
+		"React Templates",
+		"Sass",
+		"SideBarEnhancements",
+		"SublimeCodeIntel",
+		"SublimeLinter",
+		"SublimeLinter-contrib-scss-lint",
+		"SublimeLinter-eslint",
+		"TrailingSpaces"
+	]
+}
