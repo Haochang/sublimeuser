@@ -7,6 +7,7 @@
 	[
 		"Babel",
 		"BracketHighlighter",
+		"Color Highlighter",
 		"Git",
 		"GitGutter",
 		"Highlight Whitespaces",
